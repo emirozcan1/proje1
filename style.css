@@ -1,0 +1,166 @@
+header section {
+  width: 100%;
+  min-height: 1000px;
+}
+.jumbotron {
+  padding-top: 100px;
+}
+.wave {
+  position: relative;
+  background: linear-gradient(90deg, #000032, #00d4ff);
+}
+.wave:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  background: url(wave.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#kartlar .card {
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 2%;
+
+  box-shadow: 0 0 10px 4px rgb(31 66 135 / 10%);
+  -webkit-box-shadow: 0 0 10px 4px rgb(31 66 135 / 10%);
+  transition: transform 0.4s;
+}
+#kartlar .fa,
+#kartlar .fas,
+#kartlar .fab {
+  font-size: xxx-large;
+  font-weight: 900;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+#kartlar .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.btn-1 {
+  border: none;
+  color: white;
+  background-color: #0d6efd;
+
+  box-shadow: inset 0 0 0 0 rgb(255, 255, 255);
+  transition: ease-out 0.8s;
+  outline: 1px solid #fff;
+  font-size: larger;
+  padding: 1rem 1.75rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+}
+.btn-1:hover {
+  box-shadow: inset 300px 0 0 0 rgb(255, 255, 255);
+  color: black;
+}
+.bos {
+  height: 5rem;
+}
+.btn-1 .fas,
+.btn-1 .fa {
+  color: white;
+  font-size: large;
+  margin: 0;
+}
+#iletisim .fab,
+#iletisim .fas,
+#iletisim .fa {
+  font-size: small;
+  color: white;
+  margin: 0;
+  border-radius: 50%;
+}
+/* CSS Document */
+.gallery-block {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.gallery-block .heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.gallery-block .heading h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery h6 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card {
+  transition: all 0.8s;
+}
+.gallery-block.cards-gallery .card img {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+.gallery-block.cards-gallery .card-body {
+  text-align: center;
+}
+.gallery-block.cards-gallery .card-body p {
+  font-size: 15px;
+}
+.gallery-block.cards-gallery a {
+  color: #212529;
+}
+.gallery-block.cards-gallery a:hover {
+  text-decoration: none;
+}
+.gallery-block.cards-gallery .card {
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+  .gallery-block .transform-on-hover:hover {
+    opacity: 0.6;
+  }
+}
+input.form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1.5px solid #e1e1e1;
+}
+::-webkit-input-placeholder {
+  /* Edge */
+  font-size: 1.5rem;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  font-size: 1.5rem;
+}
+
+::placeholder {
+  font-size: 1.5rem;
+}
+.form-group {
+  margin-bottom: 5rem;
+}
+textarea.form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1.5px solid #e1e1e1;
+}
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+  border-radius: 50%;
+}
